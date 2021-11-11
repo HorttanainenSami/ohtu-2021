@@ -13,3 +13,4 @@ print(f'{erotus(x, y)}')
 
 
 logger('lopetetaa')
+print('goodbye!')
