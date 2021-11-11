@@ -1,3 +1,5 @@
+# Tehdään alussa importit
+
 import logger from logger
 import summa import summa
 import erotus import erotus
