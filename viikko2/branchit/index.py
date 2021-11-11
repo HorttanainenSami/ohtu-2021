@@ -4,7 +4,7 @@ import logger from logger
 import summa import summa
 import erotus import erotus
 
-logger('aloitetaan')
+logger('aloitetaan ohjelma')
 
 x = int(input('luku 1: '))
 y = int(input('luku2 :'))
