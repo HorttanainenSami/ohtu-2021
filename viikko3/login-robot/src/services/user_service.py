@@ -1,4 +1,5 @@
 from entities.user import User
+import re
 
 
 class UserInputError(Exception):
@@ -36,5 +37,14 @@ class UserService:
     def validate(self, username, password):
         if not username or not password:
             raise UserInputError("Username and password are required")
+        
+        result = re.search('[a-z]{3}', username)
+        if result is None:
+            raise UserInputError('Username must be atleast 3 characters long')
 
-        # toteuta loput tarkastukset tänne ja nosta virhe virhetilanteissa
+
+        result_password = re.search('[^a-z]', password)
+        if len(password) <= 7:
+            raise UserInputError('Password must be atleast 8 characters long')
+        if result_password is None:
+            raise UserInputError('Password must contain numbers or special characters')

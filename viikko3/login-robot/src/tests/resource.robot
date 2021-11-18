@@ -10,3 +10,6 @@ Input Credentials
     Input  ${username}
     Input  ${password}
     Run Application
+
+Input Register Command
+  Input  new
