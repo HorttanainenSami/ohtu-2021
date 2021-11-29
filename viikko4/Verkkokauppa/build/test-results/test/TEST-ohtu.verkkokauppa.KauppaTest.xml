@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ohtu.verkkokauppa.KauppaTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-11-29T16:22:55" hostname="lx0-fuxi112" time="0.549">
+  <properties/>
+  <testcase name="ostoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanOikeallaAsiakkaallaTilinumeroillaJaSummalla" classname="ohtu.verkkokauppa.KauppaTest" time="0.53"/>
+  <testcase name="poistaKoristaToimiiOikein" classname="ohtu.verkkokauppa.KauppaTest" time="0.002"/>
+  <testcase name="kahdenOstoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaan" classname="ohtu.verkkokauppa.KauppaTest" time="0.003"/>
+  <testcase name="kahdenTuotteenJoistaToistaEiOleVarastossaPankinMetodiaTilisiirtoKutsutaanOikeillaParametreilla" classname="ohtu.verkkokauppa.KauppaTest" time="0.002"/>
+  <testcase name="ostoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaan" classname="ohtu.verkkokauppa.KauppaTest" time="0.002"/>
+  <testcase name="kahdenSamanTuotteenOstoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanOikeillaParametreilla" classname="ohtu.verkkokauppa.KauppaTest" time="0.002"/>
+  <testcase name="aloitaAsiointiNollaaEdellisenIstunnon" classname="ohtu.verkkokauppa.KauppaTest" time="0.002"/>
+  <testcase name="viitegeneraattoriKayttaaPerakkaisiaNumeroita" classname="ohtu.verkkokauppa.KauppaTest" time="0.002"/>
+  <testcase name="maksutapahtumaHakeeUudenViitenumeronOstoksille" classname="ohtu.verkkokauppa.KauppaTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
